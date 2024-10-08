@@ -68,7 +68,7 @@ public class Baekjoon2573Main {
                                 }
                             }
                         }
-                       temp[i][j] = Math.max(arr[i][j] - c, 0);
+                        temp[i][j] = Math.max(arr[i][j] - c, 0);
                     }
                 }
             }
