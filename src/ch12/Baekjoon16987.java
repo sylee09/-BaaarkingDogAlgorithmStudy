@@ -5,13 +5,11 @@ import java.util.Scanner;
 public class Baekjoon16987 {
     static Egg[] eggs;
     static int answer = Integer.MIN_VALUE;
-    static boolean[] check;
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         eggs = new Egg[n];
-        check = new boolean[n];
         for (int i = 0; i < n; i++) {
             eggs[i] = new Egg(sc.nextInt(), sc.nextInt());
         }
